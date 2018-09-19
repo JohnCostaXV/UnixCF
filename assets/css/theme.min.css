@@ -6408,7 +6408,7 @@ button.bg-light:hover {
 }
 
 .bg-dark {
-    background-color: #05172a!important
+    background-color: #fff !important
 }
 
 a.bg-dark:focus,
@@ -10395,6 +10395,10 @@ button.bg-lighter:hover {
 
 .bg-gradient-primary {
     background: linear-gradient(80deg, #510fa8 0, #320fa8 100%)!important
+}
+
+.bg-gradient-cor1 {
+    background: linear-gradient(80deg, #ccc646 0, #689530 100%) !important;
 }
 
 .bg-gradient-secondary {
