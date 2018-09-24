@@ -72,7 +72,7 @@ body {
     line-height: 2.7;
     margin: 0;
     text-align: left;
-    color: #6c7686;
+    color: #fff
     background-color: #fff
 }
 
@@ -1820,22 +1820,22 @@ pre code {
 
 .form-control::-webkit-input-placeholder {
     opacity: 1;
-    color: #adb5bd
+    color: #b1b1b1 !important
 }
 
 .form-control:-ms-input-placeholder {
     opacity: 1;
-    color: #adb5bd
+    color: #b1b1b1 !important
 }
 
 .form-control::-ms-input-placeholder {
     opacity: 1;
-    color: #adb5bd
+    color: #b1b1b1 !important
 }
 
 .form-control::placeholder {
-    opacity: 1;
-    color: #adb5bd
+	opacity: 2;
+    color: dark !important
 }
 
 .form-control:disabled,
@@ -3640,7 +3640,7 @@ input[type=submit].btn-block {
     padding: .625rem 1.1rem;
     text-align: center;
     white-space: nowrap;
-    color: #adb5bd;
+    color: #000;
     border: .0625rem solid #ced4da;
     border-radius: .25rem;
     background-color: #f5f9fb;
@@ -6408,7 +6408,7 @@ button.bg-light:hover {
 }
 
 .bg-dark {
-    background-color: #fff !important
+    background-color: #000 !important
 }
 
 a.bg-dark:focus,
@@ -9993,7 +9993,7 @@ body {
     font-size: 1rem;
     line-height: 2.7;
     overflow-x: hidden;
-    color: #6c7686;
+    color: #fff;
     background-color: #fff
 }
 
@@ -10306,7 +10306,7 @@ button.bg-yellow:hover {
 }
 
 .bg-green {
-    background-color: #4cd964!important
+    background-color: #0c2f12 !important
 }
 
 a.bg-green:focus,
@@ -14244,7 +14244,7 @@ textarea[resize=horizontal] {
 }
 
 .input-group-transparent .input-group-text {
-    color: #adb5bd;
+    color: dark;
     border: .0625rem solid #ced4da;
     background-color: transparent
 }
@@ -14272,7 +14272,7 @@ textarea[resize=horizontal] {
 }
 
 .focused .input-group-text {
-    color: #510fa8;
+    color: dark;
     border-color: rgba(81, 15, 168, .5);
     background-color: #e9ecef
 }
@@ -14812,7 +14812,7 @@ textarea[resize=horizontal] {
 }
 
 .header-transparent .border-bottom.navbar-dark {
-    border-color: rgba(119, 119, 119, 0.1) !important
+    border-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 .header-transparent .border-bottom.navbar-light {
